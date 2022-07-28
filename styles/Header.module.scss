@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: linear-gradient(125.89deg, #F6FFFF 8.74%, rgba(241, 255, 255, 0) 70.99%);
+    display: flex;
+
+}
+
+.block{
+    flex: 1;
+    padding: 100px;
+    padding-right:0;
+    flex-direction: column;
+    img{
+        position: relative;
+        z-index: 2;
+        height: 80vh;
+        bottom: 3vh;
+    }
+    .title{
+        font-size: 50px;
+        margin-top: 10vh;
+    }
+    .subtitle{
+        font-size: 80px;
+        margin-top: 10vh;
+    }
+    
+}
+
+
+.brand{
+    color: #FF4F6E ;
+}
+
+.bg_pic{
+   height: 100vh;
+   width: 100vh;
+   border: 50%;
+   position: absolute;
+   z-index: 1; 
+   top: 20vh;
+   left: 10vh;
+}
+.bg_pic1{
+    height: 100vh;
+    width: 100vh;
+    border: 50%;
+    position: absolute;
+    z-index: 2; 
+    top: 72.2vh;
+    left: 5vh;
+    
+ }
+ .bg_pic2{
+    height: 100vh;
+    width: 100vh;
+    border: 70%;
+    position: absolute;
+    z-index: 2; 
+    top: 10vh;
+    left: 0vh;  
+ }
+ .bg_hire{
+    
+ }

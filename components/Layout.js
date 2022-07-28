@@ -7,7 +7,6 @@ import Services from '../container/Services/Services';
 import About from '../container/About/About';
 import Portfolio from '../container/Portfolio/Portfolio';
 import Testimonials from '../container/Testimonials/Testimonials';
-import Contact from '../container/Contact/Contact';
 import Footer from '../container/Footer/Footer';
 
 
@@ -23,7 +22,6 @@ const Layout = ({Children}) => {
     <About/>
     <Portfolio/>
     <Testimonials/>
-    <Contact/>
     <Footer/>
     </div>
     </>
