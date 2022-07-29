@@ -55,12 +55,26 @@
  .bg_pic2{
     height: 100vh;
     width: 100vh;
-    border: 70%;
+    border: 50%;
     position: absolute;
     z-index: 2; 
     top: 10vh;
     left: 0vh;  
  }
- .bg_hire{
-    
- }
+.bg_hire{
+    top: 65vh;
+    right: 61.8vh;
+    position: relative;
+}
+.bg_twitter{
+    top: 85vh;
+    left: 76vh;
+    z-index: 999;
+    position: absolute;
+}
+.bg_facebook{
+    top: 85vh;
+    left: 90vh;
+    z-index: 999;
+    position: absolute;
+}

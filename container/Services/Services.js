@@ -7,6 +7,8 @@ import { motion } from 'framer-motion';
 const Services = () => {
   return (
     <div className={styles.app__profiles}>
+      <h2 className={styles.title}>SERVICES</h2>
+      <h1 className={styles.subtitle}> I Prowide Wide <br/> Range Of Digital <br/>Services</h1>
     
       <motion.div
         whileInView={{ opacity: 1 }}
