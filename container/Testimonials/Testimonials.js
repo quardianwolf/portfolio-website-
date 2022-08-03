@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from '../../styles/Testimonials.module.scss';
+import axios from 'axios'
 
-
-const Testimonials = () => {
+function Testimonials() {
   return (
     <div>Testimonials</div>
   )
 }
 
 export default Testimonials
+

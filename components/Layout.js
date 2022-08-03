@@ -5,7 +5,7 @@ import styles from '../styles/Layout.module.scss';
 import Header from '../container/Header/Header';
 import Services from '../container/Services/Services';
 import About from '../container/About/About';
-import Portfolio from '../container/Portfolio/Portfolio';
+import ABC from '../container/Portfolio/ABC';
 import Testimonials from '../container/Testimonials/Testimonials';
 import Footer from '../container/Footer/Footer';
 
@@ -20,7 +20,7 @@ const Layout = ({Children}) => {
     <Header/>
     <Services/>
     <About/>
-    <Portfolio/>
+    <ABC/>
     <Testimonials/>
     <Footer/>
     </div>
